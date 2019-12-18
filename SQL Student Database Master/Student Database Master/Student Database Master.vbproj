@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6A5DF97-40DF-4F17-A1E1-A2DE7BD80D3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Student_Data_Managements.My.MyApplication</StartupObject>
+    <RootNamespace>Student_Data_Managements</RootNamespace>
+    <AssemblyName>Student Data Managements</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>J:\WebSite\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>50000</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Student Data Managements.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Student Data Managements.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6A52E953009B426BD4F6C677882959ECDA9D8A9F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Student Database Master_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Home.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Sql" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admission Form\Form_Admission_JSC.Designer.vb">
+      <DependentUpon>Form_Admission_JSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admission Form\Form_Admission_JSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission Form\Form_Admission_PSC.Designer.vb">
+      <DependentUpon>Form_Admission_PSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admission Form\Form_Admission_PSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission Form\Form_Admission_SSC.Designer.vb">
+      <DependentUpon>Form_Admission_SSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admission Form\Form_Admission_SSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Admin\Form_JSC.Designer.vb">
+      <DependentUpon>Form_JSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class Admin\Form_JSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Admin\Form_PSC.Designer.vb">
+      <DependentUpon>Form_PSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class Admin\Form_PSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Admin\Form_SSC.Designer.vb">
+      <DependentUpon>Form_SSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class Admin\Form_SSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Admin\SSC\Form_SSC_SelectSubject.Designer.vb">
+      <DependentUpon>Form_SSC_SelectSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class Admin\SSC\Form_SSC_SelectSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Admin\SSC\Form_Subject_View.Designer.vb">
+      <DependentUpon>Form_Subject_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class Admin\SSC\Form_Subject_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.vb">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGest.Designer.vb">
+      <DependentUpon>FormGest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\Form_ADeveloper.Designer.vb">
+      <DependentUpon>Form_ADeveloper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help\Form_ADeveloper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RrAccount\AcRegester.Designer.vb">
+      <DependentUpon>AcRegester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RrAccount\AcRegester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RrAccount\FormAcGRegister.Designer.vb">
+      <DependentUpon>FormAcGRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RrAccount\FormAcGRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RrAccount\FormAdministrationStrase.Designer.vb">
+      <DependentUpon>FormAdministrationStrase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RrAccount\FormAdministrationStrase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RrAccount\FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RrAccount\FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrial.Designer.vb">
+      <DependentUpon>FormTrial.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWalcame.Designer.vb">
+      <DependentUpon>FormWalcame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWalcame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="StudentDatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admission Form\Form_Admission_JSC.resx">
+      <DependentUpon>Form_Admission_JSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admission Form\Form_Admission_PSC.resx">
+      <DependentUpon>Form_Admission_PSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admission Form\Form_Admission_SSC.resx">
+      <DependentUpon>Form_Admission_SSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class Admin\Form_JSC.resx">
+      <DependentUpon>Form_JSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class Admin\Form_PSC.resx">
+      <DependentUpon>Form_PSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class Admin\Form_SSC.resx">
+      <DependentUpon>Form_SSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class Admin\SSC\Form_SSC_SelectSubject.resx">
+      <DependentUpon>Form_SSC_SelectSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class Admin\SSC\Form_Subject_View.resx">
+      <DependentUpon>Form_Subject_View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGest.resx">
+      <DependentUpon>FormGest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\Form_ADeveloper.resx">
+      <DependentUpon>Form_ADeveloper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PData\SSC\AdmissionFrom\SSC_Admission_From.rdlc" />
+    <EmbeddedResource Include="PData\SSC\GroupResult\Nine_Group_Result.rdlc" />
+    <EmbeddedResource Include="PData\SSC\IndividualResult\Nine_Individual_Result_Exam1.rdlc" />
+    <EmbeddedResource Include="RrAccount\AcRegester.resx">
+      <DependentUpon>AcRegester.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RrAccount\FormAcGRegister.resx">
+      <DependentUpon>FormAcGRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RrAccount\FormAdministrationStrase.resx">
+      <DependentUpon>FormAdministrationStrase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RrAccount\FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrial.resx">
+      <DependentUpon>FormTrial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWalcame.resx">
+      <DependentUpon>FormWalcame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PData\AcDetails\Six_Account_Statmant.rdlc" />
+    <EmbeddedResource Include="PData\AcDetails\Seven_Account_Statmant.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Student Database Master_TemporaryKey.pfx" />
+    <None Include="StudentDatabaseDataSet.xsc">
+      <DependentUpon>StudentDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StudentDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentDatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StudentDatabaseDataSet.xss">
+      <DependentUpon>StudentDatabaseDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class Gest\" />
+    <Folder Include="DataBaseSql\" />
+    <Folder Include="PData\GrResult\" />
+    <Folder Include="PData\JSC\AccountStatement\" />
+    <Folder Include="PData\JSC\AdmissionFrom\" />
+    <Folder Include="PData\JSC\AdmitCard\" />
+    <Folder Include="PData\JSC\GroupResult\" />
+    <Folder Include="PData\JSC\Testimonial\" />
+    <Folder Include="PData\PSC\AccountStatement\" />
+    <Folder Include="PData\PSC\AdmissionFrom\" />
+    <Folder Include="PData\PSC\AdmitCard\" />
+    <Folder Include="PData\PSC\GroupResult\" />
+    <Folder Include="PData\PSC\Testimonial\" />
+    <Folder Include="PData\SSC\AccountStatement\" />
+    <Folder Include="PData\SSC\AdmitCard\" />
+    <Folder Include="PData\SSC\Testimonial\" />
+    <Folder Include="Resources\Print Form\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorPic14x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manu_bar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_all_Bouton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo_Boutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tollbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Narmal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valide_Numbar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invalide_Numbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nurmal_Numbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NO_Pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asif.jpg" />
+    <None Include="Resources\Mahamudur.jpg" />
+    <None Include="Resources\BackroundAbout.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

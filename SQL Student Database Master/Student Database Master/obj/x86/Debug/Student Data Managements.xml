@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StudentDataManagements
+</name>
+</assembly>
+<members>
+<member name="P:Student_Data_Managements.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Student_Data_Managements.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Student_Data_Managements.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC__Account_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC__Account_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC__Account_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet.UserAccountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC__Account_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC__Account_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC__Account_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet.UserAccountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Junior_School_Certificate__JSC__Account_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Primary_School_Certificate__PSC__Account_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet._Secondary_School_Certificate__SSC__Account_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet.UserAccountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Junior_School_Certificate__JSC_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Junior_School_Certificate__JSC__Account_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Primary_School_Certificate__PSC_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Primary_School_Certificate__PSC__Account_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Secondary_School_Certificate__SSC_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.Secondary_School_Certificate__SSC__Account_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.UserAccountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Student_Data_Managements.StudentDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Student_Data_Managements.StudentDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Student_Data_Managements.StudentDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(Student_Data_Managements.StudentDatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Student_Data_Managements.StudentDatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
